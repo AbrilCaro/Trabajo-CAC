@@ -6,6 +6,10 @@
     filter: brightness(50%);
 }
 
+#botonorador {
+    margin-right: 1%;
+}
+
 .textos {
     text-align: center;
     margin-top: 1rem;
@@ -49,6 +53,3 @@
     border-bottom: 1.5px dotted black;
 }
 
-#botonorador {
-    margin-right: 1%;
-}
