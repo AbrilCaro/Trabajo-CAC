@@ -53,3 +53,22 @@
     border-bottom: 1.5px dotted black;
 }
 
+
+
+
+.card-title, .card-text, .descuento, .docu {
+    text-align: center;
+}
+
+.descuento {
+    font-weight: bold;
+}
+
+.docu {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.border {
+    border: solid red 2px;
+}
