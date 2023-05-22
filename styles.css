@@ -72,3 +72,7 @@
 .border {
     border: solid red 2px;
 }
+
+.form-row{
+    width: 100%;
+}

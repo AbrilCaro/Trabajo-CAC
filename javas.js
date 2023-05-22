@@ -1,6 +1,9 @@
-function mostrarAlerta(){
+
+/* function mostrarAlerta(){
     alert("Comprar tickets pronto");
 };
+*/
+
 function alertaOrador(){
     alert("Pronto podras ser orador");
 };
@@ -12,3 +15,10 @@ document.getElementById("botoncomprar").onclick = mostrarAlerta ;
 document.getElementById("botoncomprar2").onclick = mostrarAlerta ;
 document.getElementById("botonorador").onclick = alertaOrador ;
 document.getElementById("botondeenviar").onclick = alertaFormulario ;
+
+
+
+function borrarCampos(){
+    document.getElementById("inputNombre").value = "funciona";
+    
+};
