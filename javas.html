@@ -115,15 +115,22 @@
                 <div class="form-group col-md-4">
                     <label for="inputCategoria">Categoria</label>
                     <select id="inputCategoria" class="form-control">
-                        <option selected>Estudiante</option>
-                        <option>Trainee</option>
-                        <option>Junior</option>
+                        <option selected value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
                     </select>
                 </div>
+            
+
+            
+                <div class="form-group col-md-8">
+                <input type="text" class="form-control" id="inputTotal" readonly="true" placeholder="Total a Pagar: $">
+                </div>
             </div>
+
             <div class="form-row justify-content-center">
-            <button type="button" onclick="borrarCampos()" class="btn btn-primary">Borrar</button>
-            <button type="button" class="btn btn-primary">Resumen</button>
+            <button type="button" onclick="borrarCampos()" class="boton btn btn-primary">Borrar</button>
+            <button type="button" onclick="calcularResumen()" class="boton2 btn btn-primary">Resumen</button>
             </div>
         </form>
     
@@ -131,7 +138,7 @@
 
     <!--FOOTER-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark footer">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark footer" id="footer">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
