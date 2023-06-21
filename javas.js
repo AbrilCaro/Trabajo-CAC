@@ -67,11 +67,32 @@ function calcularResumen(){
 
 };
 
+// BORRAR CAMPOS //
+
 function borrarCampos(){
     document.getElementById("inputNombre").value = ""; 
     document.getElementById("inputApellido").value = "";
     document.getElementById("inputCorreo").value = "";
     document.getElementById("inputCantidad").value = "";
     document.getElementById("inputTotal").placeholder= "Total a Pagar: $ ";
+    document.getElementById("inputCategoria").value = "";
 }
+
+//REQUIRED
+
+function validaciones(){
+    if (document.getElementById("inputNombre").value==""){
+        alert("Nombre requerido");
+        
+    }
+
+
+}
+
+function ejecutar(){
+    validaciones();
+    calcularResumen();
+}
+
+// REDIRIGIR //
 
