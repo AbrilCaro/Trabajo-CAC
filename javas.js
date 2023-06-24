@@ -82,10 +82,24 @@ function borrarCampos(){
 
 function validaciones(){
     if (document.getElementById("inputNombre").value==""){
-        alert("Nombre requerido");
+        alert("Su nombre es requerido");
         
     }
 
+    if (document.getElementById("inputApellido").value==""){
+        alert("Su apellido es requerido");
+        
+    }
+
+    if (document.getElementById("inputCorreo").value==""){
+        alert("Su correo es requerido");
+        
+    }
+
+    if (document.getElementById("inputCantidad").value==""){
+        alert("Debe especificar una cantidad");
+        
+    }
 
 }
 
@@ -96,3 +110,8 @@ function ejecutar(){
 
 // REDIRIGIR //
 
+const redirigir = document.getElementById("botoncomprar2");
+
+redirigir.onclick = function() {
+    window.location.href = "./javas.html";
+};
